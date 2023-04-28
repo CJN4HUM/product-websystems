@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Details</title>
+  <link rel="stylesheet" href="product-details.css">
+  <script src="product-details.js"></script>
+</head>
+<body>
+
+  <div class="PD-container">
+    <div class="image">
+      <img src="images/cool-laptop.png" alt="img">
+    </div>
+
+    <div class="p-tags">
+      <p>Cool Laptop</p>
+      <p id="price">₱52000</p>
+
+    </div>
+
+    <div class="btn">
+      <p>Quantity:<span id="quantity">1</span></p>
+      <button id="subtract-btn" onclick="sub()
+      "> - </button>
+      <button onclick="add()"> + </button>
+    </div>
+  </div>
+
+  <div class="ST-container">
+    <div class="info">
+      <h3>Sub Total: </h3>
+      <p id="subTotal">52000</p>
+      <h3>QTY:</h3>
+      <p><span id="qty">1</span></p>
+      <h3>Shpping Fee:</h3>
+      <p id="shippingFee">50</p>
+      <h3>Total: </h3>
+      <p id="total">52050</p>
+      <button id="check">Checkout</button>
+    </div>
+  </div>
+
+</body>
+</html>

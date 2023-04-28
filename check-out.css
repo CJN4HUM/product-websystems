@@ -1,0 +1,97 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: aqua;
+  border-radius: 50px;
+  margin: 25vh;
+}
+
+.PD-container{
+  background-color: lightblue;
+  width: 25%;
+  height: 100%;
+  border: 5px solid lightblue;
+  border-radius: 25px;
+  padding: 0 0 25px 0;
+}
+
+.image{
+  display: flex;
+  justify-content: center;
+}
+
+.image img{
+  width: 70%;
+  height: auto;
+}
+
+.p-tags{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-style: 'Poppins';
+}
+
+.p-tags p{
+  padding: 5px;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 0 2vw;
+}
+
+.btn button{
+  padding: 5px;
+  margin: 4px;
+  background-color: lightblue;
+  border: 1px solid black;
+  border-radius: 45%;
+}
+
+.btn button:hover{
+  color: white;
+  cursor: pointer;
+}
+
+.ST-container{
+  background-color: lightblue;
+  width: 25%;
+  height: 100%;
+  border: 5px solid lightblue;
+  border-radius: 25px;
+  padding: 0 0 25px 0;
+  margin-top: 45px;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info p{
+  padding: 15px;
+}
+
+.info #check{
+  background-color: lightblue;
+  border: none;
+  border-radius: 2px;
+  text-decoration: none;
+  color: black;
+  padding: 2px 3px 2px 3px;
+}
+
+.info #check:hover{
+  opacity: 1;
+  background-color: black;
+  color: white;
+}
